@@ -9,6 +9,14 @@
   transform: scale(0) rotate(0deg) translate(-50%, -50%);
   animation: cube 12s ease-in forwards infinite;
 }
+@font-face {
+  font-family: "sanas"; 
+
+  src: url("sanas.otf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
+
 .cube:nth-child(2n) {
   border-color: #FFF ;
 }
@@ -81,11 +89,7 @@ body {
 
 img{
   color: #fff;
-}
-img{
   list-style: none;
-}
-img {
   transition: .3s;
 }
 img{
@@ -102,16 +106,22 @@ a{
   color: #fff;
   list-style: none;
   transition: .3s;
+  font-family: "sanas";
 }
 a{
   text-decoration: none;
   color: #EFEEF5;
+  font-family: "sanas";
 }
 a:hover{
   opacity: .3;
+  font-family: "sanas";
+}
+h1, h3, p {
+  font-family: "sanas";
+  font-size:  25px;
 }
 .filefox{
 
-  transform: translate(-1em, 20em);
-
+  transform: translate(-1em, 10em);
 }
