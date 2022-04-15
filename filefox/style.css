@@ -67,8 +67,15 @@ html, body {
   }
 }
 
-body {
+@font-face {
+  font-family: "sanas"; 
 
+  src: url("../sanas.otf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+body {
   background: linear-gradient(132deg, #FC415A, #731bc5, #212335);
   background-size: 400% 500%;
   animation: Gradient 20s ease infinite;
@@ -102,8 +109,7 @@ p{
   color: #fff;
   list-style: none;
   transition: .3s;
-}
-p{
+  font-family: "sanas";
   text-decoration: none;
   color: #EFEEF5;
 }
@@ -113,16 +119,15 @@ p:hover{
 h4 {
   display: inline-block;
   margin: 30px;
+  font-family: "sanas";
 }
 h1 {
   color: white;
-
-}
-
-h1 {
+  font-family: "sanas";
   font-size: 48px;
   align-content: center;
 }
+
 body, a:hover
   {
     cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur116.cur), progress !important;
