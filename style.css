@@ -71,10 +71,10 @@
 body {
   position: absolute;
   top: 5%;
-  left: 5%;
-  width: 100%;
+  left: 3%;
+  width: 95%;
   background: linear-gradient(132deg, #FC415A, #731bc5, #212335);
-  background-size: 400% 700%;
+  background-size: 400% 600%;
   animation: Gradient 20s ease infinite;
   position: relative;
   overflow: hidden;
