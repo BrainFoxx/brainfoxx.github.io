@@ -122,11 +122,19 @@ h1, h3, p {
   font-size:  25px;
 }
 
-li::marker {
-    content: '▷';
+li.diss::marker {
+    content: '🔭';
     font-size: 1.2em;
 }
 
+li.learn::marker {
+  content: '🌱';
+  font-size: 1.2em;
+}
+li.reach::marker {
+  content: '📫';
+  font-size: 1.2em;
+}
 .kek {
   left: -5%;
   position: relative;
