@@ -8,7 +8,7 @@ body {
 }
 
 svg:hover{
-  transition: .3s;
+  transition: .4s;
   opacity: .3;
 }
 
