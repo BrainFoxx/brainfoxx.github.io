@@ -38,3 +38,15 @@ a{
   top: 50%;
 }
 
+h1{
+  animation: glitch 1s linear infinite;
+}
+
+@keyframes glitch{
+  2%,64%{
+    transform: translate(2px);
+  }
+  4%,7%{
+    transform: translate(-5px) skew(0deg);
+  }
+}
