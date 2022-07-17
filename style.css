@@ -44,9 +44,9 @@ h1{
 
 @keyframes glitch{
   2%,64%{
-    transform: translate(2px);
+    transform: translate(1px);
   }
   4%,7%{
-    transform: translate(-5px) skew(0deg);
+    transform: translate(-2px) skew(1deg);
   }
 }
