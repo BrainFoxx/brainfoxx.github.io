@@ -27,8 +27,8 @@ h4 {
 
 svg, img {
   color: #fff;
-  width: 55px;
-  height: 55px;
+  width: 90px;
+  height: 90px;
   filter: drop-shadow(0px 0px 10px wheat);
   border-radius:50%;
 }
@@ -36,7 +36,7 @@ svg, img {
 a{
   margin: 25px;
   position: relative;
-  left: 41%;
+  left: 39%;
   top: 50%;
 }
 
