@@ -36,8 +36,8 @@ svg, img {
 a{
   margin: 25px;
   position: relative;
-  left: 39%;
-  top: 50%;
+  left: calc(50% - 200px);
+  top: auto;
 }
 
 h1{
